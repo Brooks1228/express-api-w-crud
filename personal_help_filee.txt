@@ -1,2 +1,0 @@
-curl request for updating both description and completed:
-curl -X PUT http://localhost:3001/tasks/3 -H "Content-Type:application/json" -d "{\"description\":\"finishing assignment\", \"completed\": true}"
